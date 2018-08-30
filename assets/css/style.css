@@ -11,3 +11,20 @@ body{
     width: 640px;
     margin: auto;
 }
+
+#mobile {
+    display: none;
+}
+
+
+@media only screen and (max-width: 640px) {
+
+    #mobile{
+        display: block;
+    }
+
+    #desktop {
+        display: none;
+    }
+
+}

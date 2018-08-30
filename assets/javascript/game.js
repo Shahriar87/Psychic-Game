@@ -1,8 +1,9 @@
-var userInput = document.getElementById("user-text");
+// var userInput = document.getElementById("user-text");
 // var computerChoices = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
-var computerChoices = "abcdefghijklmnopqrstuvwxyz".split('');
+
 // console.log(computerChoices);
 
+var computerChoices = "abcdefghijklmnopqrstuvwxyz".split('');
 var guessesLeft = 9;
 var wins = 0;
 var losses = 0;
@@ -43,7 +44,8 @@ document.onkeyup = function psychic(event) {
         document.getElementById("win").textContent = wins;
         document.getElementById("loss").textContent = losses;
         document.getElementById("guess").textContent = guessesLeft;
-        userInput.textContent = listOfChoices;
+        document.getElementById("user-text").textContent = listOfChoices;
+        document.getElementById("user-text-m").textContent = listOfChoices;
 
         
 
