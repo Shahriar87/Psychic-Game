@@ -45,7 +45,7 @@ document.onkeyup = function psychic(event) {
         document.getElementById("loss").textContent = losses;
         document.getElementById("guess").textContent = guessesLeft;
         document.getElementById("user-text").textContent = listOfChoices;
-        document.getElementById("user-text-m").textContent = listOfChoices;
+        // document.getElementById("user-text-m").textContent = listOfChoices;
 
         
 
