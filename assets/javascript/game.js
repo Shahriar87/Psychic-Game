@@ -12,7 +12,7 @@ var computerGuess
 
 function compGuess(){
     computerGuess = computerChoices[Math.floor(Math.random() * computerChoices.length)];
-    // console.log(computerGuess);
+    console.log(computerGuess);
 }
 
 compGuess()
